@@ -76,49 +76,51 @@ $(document).ready(function() {
 
 // Your code here...
 
-var numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9,]
-var firstNumber= ([]);
-var operator= ("");
-var secondNumber= ([]);
-var result= "";
+var numOne = document.getElementById("button-1");
+var numTwo = document.getElementById("button-2");
+var numThree = document.getElementById("button-3");
+var numFour = document.getElementById("button-4");
+var numFive = document.getElementById("button-5");
+var numSix = document.getElementById("button-6");
+var numSeven = document.getElementById("button-7");
+var numEight = document.getElementById("button-8");
+var numNine = document.getElementById("button-9");
+var numZero = document.getElementById("button-0");
+var opPlus = document.getElementById("button-plus");
+var opMinus = document.getElementById("button-minus");
+var opMult = document.getElementById("button-multiply");
+var opEqual = document.getElementById("button-equal");
+var opClear = document.getElementById("button-clear");
+var opPower = document.getElementById("button-power");
 
-console.log(numbers)
-
-  function calculate(){
-
-
-    $("#button-multiply").on("click", function() {
-     result = (this);
-     document.getElementsByClassName("result").firstNumber.this.secondNumber
-    {
-  console.log (result);
-    }
-    })
-    function enableTxt(elem) {
-    var id = $(elem).attr("id");
-    alert(id);
-}
-}
-
-var numOne = getElementById("button-1");
-var numTwo = getElementById("button-2");
-var numThree = getElementById("button-3");
-var numFour = getElementById("button-4");
-var numFive = getElementById("button-5");
-var numSix = getElementById("button-6");
-var numSeven = getElementById("button-7");
-var numEight = getElementById("button-8");
-var numNine = getElementById("button-9");
-var numZero = getElementById("button-0");
-var opPlus = getElementById("button-plus");
-var opMinus = getElementById("button-minus");
-var opMult = getElementById("button-multiply");
-var opEqual = getElementById("button-equal");
-var opClear = getElementById("button-clear");
-var opPower = getElementById("button-power");
+ $("#button-1").on("click", function() {
+        alert("I've been clicked!");
+      });
 
 
+// var numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9,]
+// var firstNumber= ([]);
+// var operator= ("");
+// var secondNumber= ([]);
+// var result= "";
 
+// console.log(numbers)
+
+//   function calculate(){
+
+
+//     $("#button-multiply").on("click", function() {
+//      result = (this);
+//      document.getElementsByClassName("result").firstNumber.this.secondNumber
+//     {
+//   console.log (result);
+//     }
+//     })
+//     function enableTxt(elem) {
+//     var id = $(elem).attr("id");
+//     alert(id);
+// }
+// }
 
 });
 
